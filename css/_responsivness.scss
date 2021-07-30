@@ -8,45 +8,9 @@ $medium: 768px;
 $large: 992px;
 $extraLarge: 1200px;
 
-@media only screen and(max-width:360px)
-{
-  .contact-in:nth-child(1)
-  {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(2)
-  {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(3)
-  {
-    flex: 100%;
-  }
-}
-
-@media only screen and(max-width:480px)
-{
-  .contact-in:nth-child(1)
-  {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(2)
-  {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(3)
-  {
-    flex: 100%;
-  }
-}
-
 @media only screen and (max-width: $small) {
     .carousel-caption{
-        padding-bottom: 460px;
+        padding-bottom: 280px;
 
         h2{
         font-size: 45px;
@@ -87,12 +51,27 @@ $extraLarge: 1200px;
             margin-top: -50px;
     }        
     }
+
+    .contact-in:nth-child(1)
+    {
+      flex: 50%;
+    }
+  
+    .contact-in:nth-child(2)
+    {
+      flex: 50%;
+    }
+  
+    .contact-in:nth-child(3)
+    {
+      flex: 100%;
+    }
   }
   
   
   @media only screen and (min-width: $small) {
     .carousel-caption{
-        padding-bottom: 460px;
+        padding-bottom: 280px;
 
         h2{
         font-size: 50px;
@@ -137,7 +116,7 @@ $extraLarge: 1200px;
   
   @media only screen and (min-width: $medium) {
     .carousel-caption{
-        padding-bottom: 450px;
+        padding-bottom: 260px;
 
         h2{
         font-size: 60px;
@@ -186,7 +165,7 @@ $extraLarge: 1200px;
   
   @media only screen and (min-width: $large) {
     .carousel-caption{
-        padding-bottom: 450px;
+        padding-bottom: 260px;
 
         h2{
         font-size: 70px;
@@ -234,7 +213,7 @@ $extraLarge: 1200px;
   
   @media only screen and (min-width: $extraLarge) {
     .carousel-caption{
-        padding-bottom: 320px;
+        padding-bottom: 280px;
 
         h2{
         font-size: 80px;

@@ -536,15 +536,15 @@ header .carousel-inner .item {
 }
 
 .kontaktbody .contact-in:nth-child(2) {
-  -webkit-box-flex: 45%;
-      -ms-flex: 45%;
-          flex: 45%;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
 }
 
 .kontaktbody .contact-in:nth-child(3) {
-  -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
   padding: 0;
 }
 
@@ -1044,45 +1044,9 @@ header .carousel-inner .item {
   letter-spacing: 5px;
 }
 
-@media only screen and (max-width: 360px) {
-  .contact-in:nth-child(1) {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-  .contact-in:nth-child(2) {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-  .contact-in:nth-child(3) {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .contact-in:nth-child(1) {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-  .contact-in:nth-child(2) {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-  .contact-in:nth-child(3) {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-  }
-}
-
 @media only screen and (max-width: 576px) {
   .carousel-caption {
-    padding-bottom: 460px;
+    padding-bottom: 280px;
   }
   .carousel-caption h2 {
     font-size: 45px;
@@ -1114,11 +1078,26 @@ header .carousel-inner .item {
   .smjestajbody .list-inline {
     margin-top: -50px;
   }
+  .contact-in:nth-child(1) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(2) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(3) {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
 }
 
 @media only screen and (min-width: 576px) {
   .carousel-caption {
-    padding-bottom: 460px;
+    padding-bottom: 280px;
   }
   .carousel-caption h2 {
     font-size: 50px;
@@ -1154,7 +1133,7 @@ header .carousel-inner .item {
 
 @media only screen and (min-width: 768px) {
   .carousel-caption {
-    padding-bottom: 450px;
+    padding-bottom: 260px;
   }
   .carousel-caption h2 {
     font-size: 60px;
@@ -1193,7 +1172,7 @@ header .carousel-inner .item {
 
 @media only screen and (min-width: 992px) {
   .carousel-caption {
-    padding-bottom: 450px;
+    padding-bottom: 260px;
   }
   .carousel-caption h2 {
     font-size: 70px;
@@ -1232,7 +1211,7 @@ header .carousel-inner .item {
 
 @media only screen and (min-width: 1200px) {
   .carousel-caption {
-    padding-bottom: 320px;
+    padding-bottom: 280px;
   }
   .carousel-caption h2 {
     font-size: 80px;
