@@ -1,0 +1,47 @@
+.marisnikabody {
+    font-size: 20px;
+    margin: 0 auto;
+    height: 100vh;
+
+    h2 {
+      margin-bottom: 50px;
+      font-size: 50px;
+      color: #f7c719;
+    }
+
+    .title {
+      background: #222;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      padding: 1em 0 0 0;
+    }
+
+    .tekst {
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      margin-bottom: 2em;
+    }
+
+    p {
+      padding: 2em; 
+      font-weight: bold;
+      color: #222;
+    }
+
+    .vise {
+      margin-left: 50%;
+      margin-bottom: 2em;
+    }
+
+    iframe {
+      margin: 0 auto;
+      margin-bottom: 2em;
+    }
+
+    .ssic {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}

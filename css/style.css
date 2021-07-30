@@ -1,0 +1,1268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  top: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins',sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  background-color: transparent;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  bottom: 0;
+}
+
+.footerkontakt {
+  clear: both;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  bottom: 0;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-trasparent .navbar-nav > li > a,
+.navbar-trasparent .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.navbar-trasparent a.active,
+.navbar-inverse a.active {
+  border-bottom: 3px solid #fff;
+}
+
+.nav.navbar-nav.navbar-right {
+  margin: 25px 0;
+}
+
+.navbar_btn {
+  border-radius: 2em;
+  width: 4em;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-color: #f7c719;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: none;
+}
+
+.navbar_btn:hover {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+.navbar_btn:active {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+.navbar_btn:focus {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+.banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  filter: blur(3em);
+  -webkit-filter: blur(0.3em);
+}
+
+header .carousel-inner .item {
+  height: 100%;
+}
+
+.carousel-caption {
+  padding-bottom: 25em;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption h2 {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption h2 span {
+  color: #f7c719;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption a {
+  background: #f7c719;
+  padding: 1em 2em;
+  display: inline-block;
+  margin-top: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: none;
+}
+
+.carousel-caption a:hover {
+  background: #ffa825;
+}
+
+.carousel-control .right {
+  background-image: none;
+}
+
+.carousel-control .left {
+  background-image: none;
+}
+
+.carousel-indicators .active {
+  background-color: #f7c719;
+  border-color: #f7c719;
+}
+
+.onamabody {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.onamabody .onama {
+  padding-top: 2em;
+}
+
+.onamabody .jumbotron {
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  position: relative;
+  margin-top: 5%;
+}
+
+.onamabody #myList {
+  list-style-type: none;
+  text-align: center;
+}
+
+.onamabody h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.onamabody p {
+  padding-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.smjestajbody {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.smjestajbody .smjestaj {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.smjestajbody .villa {
+  background-color: #0000;
+  margin-bottom: 10px;
+}
+
+.smjestajbody .villa:hover .social {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transform: rotateY(0deg) scale(1, 1);
+          transform: rotateY(0deg) scale(1, 1);
+}
+
+.smjestajbody .img-area {
+  overflow: hidden;
+  position: relative;
+}
+
+.smjestajbody .img-area img {
+  width: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.smjestajbody .img-area:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.smjestajbody .img-area .social {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+          transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.smjestajbody .img-area .social ul {
+  text-align: center;
+  position: relative;
+  top: 190px;
+}
+
+.smjestajbody .img-area .social ul li a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.smjestajbody .img-area .social ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid transparent;
+}
+
+.smjestajbody .img-text {
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  background-color: #262626;
+}
+
+.smjestajbody .img-text h4 {
+  margin: 0 0 5px;
+  font-size: 30px;
+  font-family: 'Poppins',sans-serif;
+  letter-spacing: 5px;
+}
+
+.marisnikabody {
+  font-size: 20px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.marisnikabody h2 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #f7c719;
+}
+
+.marisnikabody .title {
+  background: #222;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em 0 0 0;
+}
+
+.marisnikabody .tekst {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-bottom: 2em;
+}
+
+.marisnikabody p {
+  padding: 2em;
+  font-weight: bold;
+  color: #222;
+}
+
+.marisnikabody .vise {
+  margin-left: 50%;
+  margin-bottom: 2em;
+}
+
+.marisnikabody iframe {
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.marisnikabody .ssic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vise {
+  background: #f7c719;
+  color: #fff;
+  border: 2px solid #f7c719;
+  border-radius: 5px;
+  padding: .5em 1.5em;
+  font-size: 1em;
+  -webkit-transition: color 0.25s, border-color 0.25s, -webkit-box-shadow 0.25s transform 0.25s;
+  transition: color 0.25s, border-color 0.25s, -webkit-box-shadow 0.25s transform 0.25s;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s transform 0.25s;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s transform 0.25s, -webkit-box-shadow 0.25s transform 0.25s;
+  margin-top: 2em;
+}
+
+.vise:hover {
+  background: #ffa825;
+  border-color: #ffa825;
+  color: #fff;
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em #ffa825;
+          box-shadow: 0 0.5em 0.5em -0.4em #ffa825;
+  -webkit-transform: translateY(-0.5em);
+          transform: translateY(-0.5em);
+  cursor: pointer;
+}
+
+.cjenikbody {
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.cjenikbody .slika {
+  background-image: url("../slike/jumbopozadina.png");
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+}
+
+.cjenikbody .naslov {
+  font-weight: bold;
+  color: #fff;
+}
+
+.cjenikbody .pricing-area {
+  margin-top: 20px;
+}
+
+.cjenikbody .single-pricing {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin: 0 20px;
+  padding: 30px;
+}
+
+.cjenikbody .hr-custom {
+  border-top: 1px solid gray;
+}
+
+.cjenikbody .head-text {
+  background-color: transparent;
+  border-bottom: 0;
+  padding: 15px 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.cjenikbody .head-text h3 {
+  font-family: 'Poppins';
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.cjenikbody .price-area {
+  position: relative;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 200;
+  font-size: 44px;
+  line-height: 1;
+}
+
+.cjenikbody .price-area .price-area span {
+  font-weight: 600;
+}
+
+.cjenikbody .price-area .price-area span .duration {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #888;
+  letter-spacing: 1px;
+  color: #999;
+  margin: 20px 0 0 3px;
+}
+
+.cjenikbody .price-area:after, .cjenikbody .price-area .feature-area {
+  border: 0;
+  font-family: 'Poppins';
+}
+
+.kontaktbody {
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.kontaktbody #pagewrap {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.kontaktbody #header {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.kontaktbody #footer {
+  position: relative;
+  bottom: -99px;
+}
+
+.kontaktbody .contact-wrapper {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5em;
+}
+
+.kontaktbody .contact-in {
+  padding: 40px 30px;
+  background: #0662b8d5;
+}
+
+.kontaktbody .contact-in:nth-child(1) {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  color: #fff;
+}
+
+.kontaktbody .contact-in:nth-child(2) {
+  -webkit-box-flex: 45%;
+      -ms-flex: 45%;
+          flex: 45%;
+}
+
+.kontaktbody .contact-in:nth-child(3) {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  padding: 0;
+}
+
+.kontaktbody .contact-in h1 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.kontaktbody .contact-in h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.kontaktbody .contact-in h2 i {
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.kontaktbody .contact-in p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.kontaktbody .contact-in form {
+  width: 100%;
+  height: auto;
+}
+
+.kontaktbody .contact-in iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.kontaktbody .feedback-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kontaktbody .feedback-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input::placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input-textarea {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.kontaktbody .feedback-input-textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input-textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input-textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.kontaktbody .feedback-input-textarea::placeholder {
+  color: #fff;
+}
+
+.kontaktbody .contactbutton {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-property: background-color,color;
+  transition-property: background-color,color;
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+.btnEntrance {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: btnEntrance;
+          animation-name: btnEntrance;
+}
+
+@-webkit-keyframes btnEntrance {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+.btnExit {
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: btnExit;
+          animation-name: btnExit;
+}
+
+@-webkit-keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-trasparent .navbar-nav > li > a,
+.navbar-trasparent .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.navbar-trasparent a.active,
+.navbar-inverse a.active {
+  border-bottom: 3px solid #fff;
+}
+
+.nav.navbar-nav.navbar-right {
+  margin: 25px 0;
+}
+
+.navbar_btn {
+  border-radius: 2em;
+  width: 4em;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-color: #f7c719;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: none;
+}
+
+.navbar_btn:hover {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+.navbar_btn:active {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+.navbar_btn:focus {
+  background-color: #ffa825;
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+.banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  filter: blur(3em);
+  -webkit-filter: blur(0.3em);
+}
+
+header .carousel-inner .item {
+  height: 100%;
+}
+
+.carousel-caption {
+  padding-bottom: 25em;
+  font-family: 'Poppins';
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption h2 {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption h2 span {
+  color: #f7c719;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.carousel-caption a {
+  background: #f7c719;
+  padding: 1em 2em;
+  display: inline-block;
+  margin-top: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: none;
+}
+
+.carousel-caption a:hover {
+  background: #ffa825;
+}
+
+.carousel-control .right {
+  background-image: none;
+}
+
+.carousel-control .left {
+  background-image: none;
+}
+
+.carousel-indicators .active {
+  background-color: #f7c719;
+  border-color: #f7c719;
+}
+
+.onamabody {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.onamabody .onama {
+  padding-top: 2em;
+}
+
+.onamabody .jumbotron {
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  position: relative;
+  margin-top: 5%;
+}
+
+.onamabody #myList {
+  list-style-type: none;
+  text-align: center;
+}
+
+.onamabody h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.onamabody p {
+  padding-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.smjestajbody {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("../slike/onama/beach-rabac.jpg");
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.smjestajbody .smjestaj {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.smjestajbody .villa {
+  background-color: #0000;
+  margin-bottom: 10px;
+}
+
+.smjestajbody .villa:hover .social {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transform: rotateY(0deg) scale(1, 1);
+          transform: rotateY(0deg) scale(1, 1);
+}
+
+.smjestajbody .img-area {
+  overflow: hidden;
+  position: relative;
+}
+
+.smjestajbody .img-area img {
+  width: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.smjestajbody .img-area:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.smjestajbody .img-area .social {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+          transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.smjestajbody .img-area .social ul {
+  text-align: center;
+  position: relative;
+  top: 190px;
+}
+
+.smjestajbody .img-area .social ul li a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.smjestajbody .img-area .social ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid transparent;
+}
+
+.smjestajbody .img-text {
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  background-color: #262626;
+}
+
+.smjestajbody .img-text h4 {
+  margin: 0 0 5px;
+  font-size: 30px;
+  font-family: 'Poppins',sans-serif;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 360px) {
+  .contact-in:nth-child(1) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(2) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(3) {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-in:nth-child(1) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(2) {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+  .contact-in:nth-child(3) {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-caption {
+    padding-bottom: 460px;
+  }
+  .carousel-caption h2 {
+    font-size: 45px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption a {
+    padding: 18px 18px;
+    font-size: 15px;
+  }
+  .navbar_btn {
+    width: 42px;
+    height: 42px;
+    padding-top: 10px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .onamabody h2 {
+    font-size: 2em;
+  }
+  .onamabody p {
+    font-size: 1.25em;
+  }
+  .smjestajbody {
+    overflow-y: scroll;
+  }
+  .smjestajbody .list-inline {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .carousel-caption {
+    padding-bottom: 460px;
+  }
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
+  .carousel-caption h3 {
+    font-size: 22px;
+  }
+  .carousel-caption a {
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+  .navbar_btn {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .onamabody h2 {
+    font-size: 2.2em;
+  }
+  .onamabody p {
+    font-size: 1.3em;
+  }
+  .smjestajbody {
+    overflow-y: hidden;
+  }
+  .smjestajbody .list-inline {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-caption {
+    padding-bottom: 450px;
+  }
+  .carousel-caption h2 {
+    font-size: 60px;
+  }
+  .carousel-caption h3 {
+    font-size: 25px;
+  }
+  .carousel-caption a {
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+  .navbar_btn {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .onamabody h2 {
+    font-size: 2.5em;
+  }
+  .onamabody p {
+    font-size: 1.4em;
+  }
+  .smjestajbody {
+    overflow-y: visible;
+  }
+  .smjestajbody .container-fluid {
+    padding-left: 250px;
+  }
+  .smjestajbody .list-inline {
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-caption {
+    padding-bottom: 450px;
+  }
+  .carousel-caption h2 {
+    font-size: 70px;
+  }
+  .carousel-caption h3 {
+    font-size: 25px;
+  }
+  .carousel-caption a {
+    padding: 25px 25px;
+    font-size: 15px;
+  }
+  .navbar_btn {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-right: 12px;
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  .onamabody h2 {
+    font-size: 2.6em;
+  }
+  .onamabody p {
+    font-size: 1.4em;
+  }
+  .smjestajbody {
+    overflow-y: visible;
+  }
+  .smjestajbody .container-fluid {
+    padding-left: 15px;
+  }
+  .smjestajbody .list-inline {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-caption {
+    padding-bottom: 320px;
+  }
+  .carousel-caption h2 {
+    font-size: 80px;
+  }
+  .carousel-caption h3 {
+    font-size: 30px;
+  }
+  .carousel-caption a {
+    padding: 25px 25px;
+    font-size: 18px;
+  }
+  .navbar_btn {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    padding-right: 12px;
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  .onamabody h2 {
+    font-size: 2.4em;
+  }
+  .onamabody p {
+    font-size: 1.2em;
+  }
+  .smjestajbody {
+    overflow-y: visible;
+  }
+  .smjestajbody .list-inline {
+    margin-top: -10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

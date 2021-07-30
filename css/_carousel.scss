@@ -1,0 +1,66 @@
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: blur(3em);
+    -webkit-filter: blur(0.3em);
+   }
+   
+   header .carousel-inner .item{
+    height: 100%;
+   }
+   
+   .carousel-caption{
+    padding-bottom: 25em;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+   
+    h2{
+       font-size: 5em;
+       text-transform: uppercase;
+       font-weight: bold;
+       text-shadow: 1px 1px 1px #000000;
+   
+       span{
+           color: #f7c719;
+           font-weight: bold;
+           text-shadow: 1px 1px 1px #000000;
+          }
+   
+      }
+   
+       a{
+       background: #f7c719;
+       padding: 1em 2em;
+       display: inline-block;
+       margin-top: 1.5em;
+       color: #fff;
+       text-transform: uppercase;
+       border-radius: 2em;
+       font-weight: bold;
+       text-shadow: 1px 1px 1px #000000;
+       text-decoration: none;
+      }
+   
+       a:hover{
+       background: #ffa825;
+      }
+   }
+   
+   .carousel-control {
+       .right{
+           background-image: none;
+       }
+   
+       .left{
+           background-image: none;
+          }
+   }
+   
+   .carousel-indicators .active{
+    background-color: #f7c719;
+    border-color: #f7c719;
+   }

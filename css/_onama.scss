@@ -1,0 +1,39 @@
+.onamabody
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url('../slike/onama/beach-rabac.jpg');
+    margin: 0 auto;
+    height: 100vh;
+
+    .onama {
+      padding-top: 2em;
+    }
+
+.jumbotron
+{
+  background: rgba(0,0,0,0.25); 
+  color: #fff;
+  position: relative;
+  margin-top: 5%;
+}
+
+#myList 
+{
+  list-style-type:none;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+p {
+    padding-top: 1em;
+    justify-content: center;
+}
+}

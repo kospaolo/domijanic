@@ -1,0 +1,91 @@
+.cjenikbody {
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url('../slike/onama/beach-rabac.jpg');
+    margin: 0 auto;
+    height: 100vh;
+
+    .slika {
+        background-image: url('../slike/jumbopozadina.png');
+        margin-top: 2em;
+        margin-bottom: 1em;
+        border-radius: 2em;
+    }
+
+    .naslov {
+        font-weight: bold; 
+        color: #fff;
+    }
+
+    .pricing-area
+    {
+     margin-top: 20px;
+    }
+
+.single-pricing
+{
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin: 0 20px;
+  padding: 30px;
+}
+
+.hr-custom
+{
+  border-top: 1px solid gray;
+}
+
+.head-text
+{
+  background-color: transparent;
+  border-bottom: 0;
+  padding: 15px 0;
+  border-radius: 3px 3px 0 0;
+
+  h3
+{
+  font-family: 'Poppins';
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+}
+.price-area
+{
+  position: relative;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 200;
+  font-size: 44px;
+  line-height: 1;
+
+  .price-area span
+{
+  font-weight: 600;
+  .duration
+{
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #888;
+  letter-spacing: 1px;
+  color: #999;
+  margin: 20px 0 0 3px;
+}
+}
+
+&:after, .feature-area
+{
+  border: 0;
+  font-family: 'Poppins';
+}   
+}
+}

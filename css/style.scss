@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background: #222;
+  top: 0;
+}
+
+body
+{
+ height: 100vh; 
+ font-family: 'Poppins',sans-serif;
+ display: grid;
+ align-items: center;
+}
+
+footer
+{
+  background-color: transparent;
+  border-color: transparent;
+  background: rgba(0,0,0,0.3); 
+  color: #fff;
+  bottom: 0;
+}
+
+.footerkontakt
+{
+  clear: both;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  bottom: 0;
+}
+
+@import './navbar';
+@import './carousel';
+@import './onama';
+@import './smjestaj';
+@import './marisnika';
+@import './button';
+@import './cjenik';
+@import './kontakt';
+@import './backtotop';
+@import './responsivness';

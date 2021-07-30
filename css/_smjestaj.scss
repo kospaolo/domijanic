@@ -1,0 +1,102 @@
+.smjestajbody
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url('../slike/onama/beach-rabac.jpg');
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100vh;
+
+    .smjestaj
+{
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.villa
+{
+  background-color: #0000;
+  margin-bottom: 10px;
+
+  &:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+  }
+}
+
+.img-area
+{
+  overflow: hidden;
+  position: relative;
+
+  img
+{
+  width: 100%;
+  transition: all 0.4s ease 0s;
+}
+
+&:hover img
+  {
+    transform: scale(1.2);
+  }
+.social
+{
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+
+  ul
+{
+  text-align: center;
+  position: relative;
+  top: 190px;
+
+  li a
+{
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+
+  &:hover
+  {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+  }
+}
+}
+}
+}
+
+.img-text
+{
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  background-color: #262626;
+
+    h4
+    {
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 5px;
+    }
+}
+}

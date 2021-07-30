@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!-- ANIMATED CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<div id="pagewrap">
+
+  <header id="header">
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Navigacija</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">NASLOVNICA</a></li>
+            <li><a href="onama.html">O NAMA</a></li>
+            <li><a href="smjestaj.html">SMJEŠTAJ</a></li>
+            <li><a href="cjenik.html">CJENIK</a></li>
+            <li><a class="active" href="kontakt.html">KONTAKT</a></li>
+            <a class="btn navbar_btn" href="kontakten.html">EN</a>
+            <a class="btn navbar_btn" href="kontaktde.html">DE</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body class="kontaktbody">
+
+    <div id="container">
+      <div class="contact-wrapper">
+        <div class="contact-in">
+          <h1>Kontaktirajte nas</h1>
+          <h2><i class="fas fa-phone" aria-hidden="true"></i>Mobitel</h2>
+          <p>+385 91 559 6829 - Sandi</p>
+          <h2><i class="fas fa-envelope" aria-hidden="true"></i>Email</h2>
+          <p>sandi.domijanic@gmail.com</p>
+          <h2><i class="fas fa-map-marker" aria-hidden="true"></i>Adresa</h2>
+          <p>Snašići 2E, Pustić, Labin 52220, Istra, Republika Hrvatska</p><br>
+          <h1>Podaci za uplatu: </h1>
+          <p>Erste banka: HR8424020063100341810</p>
+          <p>SWIFT: ESBCHR22</p>
+        </div>
+
+        <div class="contact-in">
+          <h1>Postavite nam pitanje</h1>
+          <form class="form" action="https://formspree.io/f/mzbkakzb" method="POST">
+            <input name="name" type="text" class="feedback-input" id="name" placeholder="Ime i prezime">
+            <input name="email" type="email" class="feedback-input" id="email" placeholder="E-Mail">
+            <textarea name="message" class="feedback-input-textarea" id="message" placeholder="Poruka"></textarea>
+            <input type="submit" value="POŠALJI" class="contactbutton">
+          </form>
+        </div>
+
+        <div class="contact-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.885366663803!2d14.067758015855148!3d45.09831317909824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47634bf20198dcbf%3A0x9e608787ce48fc1b!2sFerienhaus+Maris!5e1!3m2!1shr!2shr!4v1554141763171!5m2!1shr!2shr"
+            width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+  </body>
+  <footer id="footer">
+    <div class="footer footer-copyright text-center py-3">Copyright © 2021. Kuće za odmor Domijanić. Sva prava
+      pridržana.
+      Izrada: Paolo Kos</div>
+  </footer>
+</div>
+
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+
+<!-- JAVASCRIPT -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/skripta.js"></script>
+
+</html>
