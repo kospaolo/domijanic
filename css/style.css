@@ -492,6 +492,8 @@ header .carousel-inner .item {
   background-image: url("../slike/onama/beach-rabac.jpg");
   margin: 0 auto;
   height: 100vh;
+  height: unset;
+  display: unset;
 }
 
 .kontaktbody #pagewrap {
